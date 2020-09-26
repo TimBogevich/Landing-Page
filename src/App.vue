@@ -13,7 +13,6 @@
         fab
         v-show="fab"
         v-scroll="onScroll"
-        dark
         fixed
         bottom
         right
@@ -75,10 +74,10 @@ export default {
   watch: {
     fab(value) {
       if (value) {
-        this.color = "secondary";
+        this.color = "white";
         this.flat = false;
       } else {
-        this.color = "transparent";
+        this.color = "white";
         this.flat = true;
       }
     },

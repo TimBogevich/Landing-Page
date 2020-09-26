@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Preços</h1>
+              <h1 class="font-weight-light display-2">Цены</h1>
               <h1 class="font-weight-light">Lorem ipsum dolor asimet!</h1>
             </v-col>
             <v-col

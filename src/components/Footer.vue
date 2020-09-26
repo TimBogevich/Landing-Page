@@ -1,5 +1,5 @@
 <template>
-  <v-footer dark padless>
+  <v-footer padless>
     <v-card flat tile class="secondary white--text text-center">
       <v-card-text>
         <v-btn
@@ -15,14 +15,13 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
+        ООО "Белый ремонт"
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>Белый ремонт</strong>
       </v-card-text>
     </v-card>
   </v-footer>
